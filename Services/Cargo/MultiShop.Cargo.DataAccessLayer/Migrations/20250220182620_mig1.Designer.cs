@@ -11,7 +11,7 @@ using MultiShop.Cargo.DataAccessLayer.Concrete;
 
 namespace MultiShop.Cargo.DataAccessLayer.Migrations
 {
-    [DbContext(typeof(OrderContext))]
+    [DbContext(typeof(CargoContext))]
     [Migration("20250220182620_mig1")]
     partial class mig1
     {

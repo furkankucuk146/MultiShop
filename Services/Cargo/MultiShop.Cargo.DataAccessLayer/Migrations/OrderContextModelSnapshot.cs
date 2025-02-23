@@ -10,7 +10,7 @@ using MultiShop.Cargo.DataAccessLayer.Concrete;
 
 namespace MultiShop.Cargo.DataAccessLayer.Migrations
 {
-    [DbContext(typeof(OrderContext))]
+    [DbContext(typeof(CargoContext))]
     partial class OrderContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
